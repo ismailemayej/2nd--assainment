@@ -190,20 +190,34 @@ p{
     
 }
 /* -- -----------Popular Collection end-------------- -- */
+    .about{
+        display: flex;
+        justify-content: space-around;
+        background-color: #232f3e;
+        padding: 20px;
+        color: rgb(255, 255, 255);
+
+    }
+    .about a{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
 /* ------------- footer section start ---------------- */
 footer{
     background-color: #0A0826;
     color: #fff;
     padding: 20px 0px;
     text-align: center;
-    margin-top: 20px;
+   
 }
 .fab{
     padding-left: 15px;
 }
 /* ------------- footer section end ---------------- */
-@media only screen and (min-width:992px){
-    .mobile-view{
+@media only screen and (min-width:992px) {
+    .mobile-view {
         display: none;
     }
 }
