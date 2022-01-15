@@ -1,4 +1,19 @@
-@media only screen and (min-width: 689px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     .mobile-view{
         display: none;
+        }
+    .head-line {
+        font-size: 35px;
+    
     }
+    .description{
+        font-size: 14px;
+    }
+    .jarney-area-right img {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+}

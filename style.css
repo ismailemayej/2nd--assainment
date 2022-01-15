@@ -68,7 +68,7 @@ body{
 width: 100%;
 }
 .description {
-    font-size: 16px;
+    font-size: 17px;
     padding:8px 0px 16px 0px;
     margin-b1: 12px;
 }
@@ -202,3 +202,9 @@ footer{
     padding-left: 15px;
 }
 /* ------------- footer section end ---------------- */
+@media only screen and (min-width:992px){
+    .mobile-view{
+        display: none;
+    }
+}
+    
