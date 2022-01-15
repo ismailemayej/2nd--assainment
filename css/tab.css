@@ -27,5 +27,9 @@
 .product-title {
     font-size: 24px;
 }
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
 }

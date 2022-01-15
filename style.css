@@ -190,6 +190,52 @@ p{
     
 }
 /* -- -----------Popular Collection end-------------- -- */
+    .featured-products-area
+{
+    padding: 20px 3px;
+}
+    .featured-products {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-bottom: 5px;
+       
+        
+
+    }
+    .name{
+        padding: 6px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .featured-product img{
+       height: 70%;
+       width: 100%;
+       padding: 0;
+    margin: 0;    }
+    .featured-product{
+         height:200px;
+         width:190px;
+         padding-bottom: 5px;
+         margin: 5px;
+    
+    border: 1px solid rgb(147, 165, 147);
+    padding: 10px;
+    border-radius: 5px;
+}
+.featured-product h3{
+    margin: 0;
+    padding: 0;
+}
+
+     
+    
+    
+
+
+
     .about{
         display: flex;
         justify-content: space-around;

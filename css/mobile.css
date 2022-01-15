@@ -93,5 +93,9 @@
     .product-title{
         font-size:22px;
     }
+    .featured-products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 
 }
