@@ -1,4 +1,12 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
+    
+    
+    .mobile-view{
+        background-color: rgb(243, 239, 239);
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 15px;
+    }
     .navegation {
         display: none;
     }
@@ -78,4 +86,5 @@
         padding: 15px 15px 0px 15px;
         box-shadow: 0px 0px 8px 0px #c1a3a378;
     }
+
 }
